@@ -1,0 +1,153 @@
+body {
+    background-color: #0b0b19;
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    color: #f0f0ff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .match-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    background: linear-gradient(145deg, #1d1d35, #141427);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s;
+  }
+  
+
+  
+  .player {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .player-info {
+    border: 2px solid #0c0c1f;
+    border-radius: 10px;
+    padding: 15px;
+    background: radial-gradient(circle, rgba(45, 45, 85, 0.9), #151525);
+    box-shadow: 0 4px 15px rgba(80, 20, 200, 0.4), inset 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #7f63ff;
+    box-shadow: 0 0 10px #9f8fff, 0 0 15px #3a3a5f inset;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #f4b400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .power-level {
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .techniques {
+    color: #e84e4e;
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    font-size: 0.8em;
+    color: #b0b0d0;
+    background-color: rgba(20, 20, 40, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .match-details {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    background: rgba(30, 30, 60, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(80, 20, 200, 0.4), inset 0 0 8px #ffffff33;
+  }
+  
+  .match-details h3 {
+    color: #ff7f50;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .match-details .combat-time,
+  .match-details .combat-rounds,
+  .match-details .combat-winner {
+    font-size: 1em;
+    color: #a0a0ff;
+    margin: 5px 0;
+  }
+  
+  .match-details .summary {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #aaaaff;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px #000;
+  }
+  
+  @media (max-width: 768px) {
+    .match-card {
+      flex-direction: column;
+      align-items: center;
+    }
+    .player, .match-details {
+      width: 100%;
+      padding: 15px 0;
+    }
+  }
+  .match-details {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    background: rgba(30, 30, 60, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(80, 20, 200, 0.4), inset 0 0 8px #ffffff33;
+  }
+  
+  .rounds {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .round {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    transition: transform 0.2s;
+    border: 2px solid #f4b400;
+  }
+  
+  .round img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .round:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+  }
+  
+  
